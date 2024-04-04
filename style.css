@@ -167,3 +167,151 @@ body {
     margin-left: 100px;
     
 }
+
+
+@media (max-width:600px) {
+    .template {
+        background-color: rgb(255, 255, 255);
+        width: 390px;
+        border-radius: 50px;
+        
+    }
+    .header {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header h3 {
+        font-size: 20px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        color: rgba(45, 59, 59, 0.637);
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .header h1 strong {
+        color: red;
+        font-size: 20px;
+    }
+    .header img {
+        width: 100%;
+        max-width: 450px;
+        margin-top: 50px;
+        
+    }
+    .header button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
+        border-radius: 25px;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .texto {
+        margin: 30px;
+        line-height: 20px;
+        font-size:15px;
+    }
+    .modo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .modo h1 {
+        text-align: center;
+        color: red;
+        margin-bottom: 20px;
+    }
+    .modo p {
+        margin: 30px;
+        line-height: 20px;
+        font-size:15px;
+    }
+    .modo img {
+       display: none;
+    }
+   
+    .imagem {
+        width: 550px;
+        padding-left: 191px;
+        padding-top: 50px;
+        
+    }
+    .paragrafo {
+        margin: 20px;
+        line-height: 20px;
+        padding-right: 300px;
+        
+    }
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .topicos {
+        margin: 20px;
+        line-height: 20px;
+        
+    }
+    
+    .topicoimg img {
+        display: none;
+        
+    }
+    .textotop {
+        text-align: center;
+        color: red;
+    }
+    .textodepoimento {
+        text-align: center;
+        color: red;
+    }
+    .depoimento {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .um {
+        border: 1px solid rgba(255, 247, 247, 0.747);
+        width: 200px;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 9px;
+        background-color: rgb(170, 191, 209);
+    }
+    .um img {
+        height: 25px;
+        border-radius: 90px;
+        margin-left: 50px;
+    }
+    .um p {
+        margin-top: 20px;
+    }
+    .textofinal {
+        color: red;
+        margin: 0 30px;
+    
+    }
+    .final {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 30px;
+    }
+    .final ul {
+        color: red;
+    }
+    .botaofinal {
+        display: none;
+        
+        
+    }
+}
